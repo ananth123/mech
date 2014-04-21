@@ -1,0 +1,13 @@
+print "++++++++++++++++++++++MECH---SOFT++++++++++++++++++++++"
+print "+                                                     +"
+print "+________________________ANANTH_______________________+"
+print "+                                                     +"
+print "+*****PROGRAM TO CALCULATE OTTO CYCLE EFFICIENCY******+"
+print "+                                                     +"
+print "+++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+print ("Enter the compression ratio and ratio of specifi heats\nr = compression ratio(r = 1-14.5 if u wish to calculate the cycle efficiency for your petrol vehicle check your manufacturers website for compression ratio)\n g = 1.4 for air as working medium hence for all vehicles ")
+r = float(raw_input('r='))
+g = float(raw_input('g='))
+c = 1-(1/(r**(g-1)))
+e = c*100
+print "the compression ratio for the given values of r and g is:",e,"%"
