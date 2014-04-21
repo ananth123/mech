@@ -1,0 +1,13 @@
+print " +++++++++++++++++++++MECH---SOFT+++++++++++++++++++++ "
+print "                                                       "
+print " ________________________ANANTH_______________________ "
+print "                                                       "
+print " *****PROGRAM TO CALCULATE OTTO CYCLE EFFICIENCY****** "
+print "                                                       "
+print " +++++++++++++++++++++++++++++++++++++++++++++++++++++ "
+print ("Enter the pressure ratio and ratio of specifi heats\nR = pressure ratio\n g = 1.4 for air as working medium ")
+R = float(raw_input('R='))
+g = float(raw_input('g='))
+c = 1-(1/(r**((g-1)/g)))
+e = c*100
+print "the compression ratio for the given values of r and g is:",e,"%"
