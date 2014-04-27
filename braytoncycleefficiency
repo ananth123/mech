@@ -10,4 +10,4 @@ R = float(raw_input('R='))
 g = float(raw_input('g='))
 c = 1-(1/(r**((g-1)/g)))
 e = c*100
-print "the compression ratio for the given values of r and g is:",e,"%"
+print "the cycle efficiency for the given values of r and g is:",e,"%"
