@@ -2,7 +2,7 @@ print " +++++++++++++++++++++MECH---SOFT+++++++++++++++++++++ "
 print "                                                       "
 print " ________________________ANANTH_______________________ "
 print "                                                       "
-print " *****PROGRAM TO CALCULATE OTTO CYCLE EFFICIENCY****** "
+print " ****PROGRAM TO CALCULATE BRAYTON CYCLE EFFICIENCY**** "
 print "                                                       "
 print " +++++++++++++++++++++++++++++++++++++++++++++++++++++ "
 print ("Enter the pressure ratio and ratio of specifi heats\nR = pressure ratio\n g = 1.4 for air as working medium ")
